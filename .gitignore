@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local files
+.env
+
+#ignore everything in localdata except for the .gitkeep file
+/.localdata/*
+!/.localdata/.gitkeep
